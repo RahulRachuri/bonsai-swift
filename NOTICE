@@ -1,0 +1,17 @@
+bonsai-swift
+Copyright 2026 the bonsai-swift authors
+
+This repository distributes no model weights and no converted bundles.
+
+The model it hosts is Ternary Bonsai 2 27B by Prism ML, Inc.
+(https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf), released under the
+Apache License 2.0. Created using Bonsai by Prism ML.
+
+Bonsai 2 is built from Qwen3.8-27B, Copyright 2026 Alibaba Cloud
+(https://huggingface.co/Qwen/Qwen3.8-27B), also available under the Apache
+License 2.0.
+
+The separately distributed Core AI artifact is a modified runtime
+representation of the PQ2_0 language weights. The conversion recipe that
+produces it is published in the community Core AI model zoo
+(https://github.com/john-rocky/coreai-model-zoo).

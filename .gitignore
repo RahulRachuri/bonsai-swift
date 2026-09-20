@@ -1,0 +1,14 @@
+.build/
+.swiftpm/
+__pycache__/
+.DS_Store
+# Bundles and weights are never committed; they resolve from the Hub or a local artifacts dir.
+*.aimodel/
+*.aimodelc/
+# Reference fixtures (logit rows and argmax streams from the PrismML runtime) are large;
+# small ones are committed, the full set is not.
+reference-all/
+# Local paths, tokens and per-device settings go in these, which stay out of git.
+.env
+*.local
+local.*
